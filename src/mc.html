@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Portfolio</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Mandarin Chocolate</title>
     <meta name="description" content="Basic HTML/Tailwind starter" />
     <meta name="author" content="Daily Dev Tips" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@3.0.6/css/line.css">
-  </head>
-  <body>
-    <header>
-    <a href="mc.html">Lien vers mandarin Chocolate</a>
-    </header>
+</head>
+<body>
+    <a href="index.html">Retour homepage</a>
+    <main>
+        <div class="p-4" >
+            <!-- component -->
+            <!-- Display Container (not part of component) START -->
+            <div class="m-10 mx-auto  sm:p-24 lg:p-48">
 
-    <main>   
-      <div class="bg-black text-white flex flex-col text-center">
-        <div>
-          <span class="m-4">ALL</span>
-          <span class="m-4">BRANDING</span>
-          <span class="m-4">DESIGN</span>
+                <!-- Carousel Body -->
+                <div class="relative rounded-lg block md:flex items-center  shadow-xl" >
+                <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+                    <img class="absolute inset-0 w-full h-full object-cover object-center" src="img/police-dog.png" alt="">
+                </div>
+                <button class="absolute top-0 mt-32 left-7 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -ml-6 focus:outline-none focus:shadow-outline">
+                    <span class="block" style="transform: scale(-1);">&#x279c;</span>
+                </button>
+                <button class="absolute top-0 mt-32 right-7 bg-white rounded-full shadow-md h-12 w-12 text-2xl text-indigo-600 hover:text-indigo-400 focus:text-indigo-400 -mr-6 focus:outline-none focus:shadow-outline">
+                    <span class="block" style="transform: scale(1);">&#x279c;</span>
+                </button>
+                </div>
+                
+                <!-- Carousel Tabs -->
+            </div>
+            <!-- Display Container (not part of component) END -->
+
+            <div class="text-2xl font-bold text-Black-500 mb-4 uppercase">Slider Sidebar Project</div>
+            <span class="text-sm text-left text-gray-500 ">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate tempore eligendi magnam distinctio molestias. Incidunt at consequuntur consequatur 
+                    officiis repudiandae! Culpa cum vel tenetur itaque eius provident voluptatum similique impedit.
+            </span>
+            <div class="border-b-2 border-gray-300 mt-12"></div>
+            <div class=" uppercase mt-12" >
+                <p class="text-base font-bold text-Black-500">December 10, 2016</p>
+                <span class="text-gray-300">Date</span>
+            </div>
+            <div class=" uppercase mt-3" >
+                <p class="text-base font-bold text-Black-500">Branding, Design</p>
+                <span class="text-gray-300">Category</span>
+            </div>
+            <div class=" uppercase mt-3" >
+                <p class="text-base font-bold text-Black-500">London Barbershop</p>
+                <span class="text-gray-300">Client</span>
+            </div>
+            
+            <div class="max-w-screen-lg bg-green-400 mx-auto text-center py-5 mt-8">
+                <h2 class="text-base leading-9  tracking-tight text-white sm:text-4xl sm:leading-10 uppercase">
+                Launch the project
+                </h2>
+            </div>
+
+            <div class="border-b-2 border-gray-300 mt-12"></div>
+
+            <div class="flex flex-row">
+                <div class="mr-20">
+                    <button class="mt-10 h-10 w-12 text-6xl text-green-300">
+                        <span class="block" style="transform: scale(-1);">&#x279c;</span>
+                    </button>
+                    <div class=" text-xs uppercase mt-3" >
+                        <span class="text-gray-300">previous reading</span>
+                        <p class="font-bold text-Black-500">colorful banana</p>
+                    </div>
+                </div>
+                <div class="mr-0">
+                    <button class="mt-9 mr-0 h-10 w-12 text-6xl text-green-300 mr-0 ">
+                        <span class="mr-0" style="transform: scale(1);">&#x279c;</span>
+                    </button>
+                    <div class=" text-xs uppercase mt-4 mr-0" >
+                        <span class="text-gray-300">next reading</span>
+                        <p class="font-bold text-Black-500 ">total space</p>
+                    </div>
+                </div>
+            </div>
+            
+        
         </div>
-        <div>
-          <span class="m-4">ILLUSTRATION</span>
-          <span class="m-4">WEB-SITE</span>
-        </div>
-      </div>
-
-      <div class= "px-4">
-        <img src="img/pink-hair.png" alt="">
-        <img src="img/future-life.png" alt="">
-        <img src="img/total-space.png" alt="">
-        <img src="img/mandarin-chocolate.png" alt="" >
-        <img src="img/colorful-banana.png" alt="">
-        <img src="img/amstel-festival.png" alt="">
-        <img src="img/police-dog.png" alt="">
-        <img src="img/activation.png" alt="">
-      </div>
-
-      <div class="bg-green-400 text-center flex flex-col">
-        <span class="text-white text-xs font-sans mt-20 mb-2">SO WHAT'S NEXT?</span>
-
-        <span class="text-white font-bold text-5xl mt-2 mb-2">ARE YOU READY? 
-        <span class="text-black font-bold text-5xl underline mt-2 mb-30 ">LET'S WORK!</span></span>
-
-      </div>
-
     </main>
-      <!-- component -->
+          <!-- component -->
     <footer class="bg-gray-800 pt-10 sm:mt-10 pt-10">
         <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
             <!-- Col-1 -->
@@ -196,6 +234,5 @@
             </div>
         </div>
     </footer>
-
-  </body>
+</body>
 </html>

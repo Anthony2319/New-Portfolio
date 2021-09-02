@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@iconscout/unicons": "^4.0.0",
     "autoprefixer": "^10.2.4",
     "live-server": "^1.2.1",
     "postcss-cli": "^8.3.1",
