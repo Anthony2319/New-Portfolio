@@ -1,21 +1,21 @@
 {
   "name": "html-tailwind-starter",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss styles.css -o src/styles.css",
     "dev": "npm run build && live-server src --port=8080"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeVillageDuCode/tailwind-labo.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@iconscout/unicons": "^4.0.0",
-    "autoprefixer": "^10.2.4",
-    "live-server": "^1.2.1",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.3"
-  }
+  "bugs": {
+    "url": "https://github.com/LeVillageDuCode/tailwind-labo/issues"
+  },
+  "homepage": "https://github.com/LeVillageDuCode/tailwind-labo#readme",
+  "description": ""
 }
